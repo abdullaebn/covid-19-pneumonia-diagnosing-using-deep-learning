@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Upload</title>
+</head>
+<style>
+  body {
+    background-color: rgb(84, 141, 141);
+  }
+</style>
+
+<body>
+  <center>
+
+    <h1 style="color: rgb(114, 61, 61); font-size: 80px;">Covid 19, Pnuemonia prediction</h1>
+    <h1>Upload an Image</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <input type="submit" value="Upload">
+      <h1>{{ Data }}</h1>
+    </form>
+  </center>
+</body>
+
+</html>
